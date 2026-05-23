@@ -1,0 +1,80 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-size:cover;
+    /* background-image: linear-gradient( to right, rgb(98, 0, 255), rgb(40, 2, 255)); */
+    background: rgb(0, 102, 255);
+}
+
+article {
+    background: rgba(255, 255, 255, 0.219);
+    border: solid 1px white;
+    border-radius: 30px;
+    width: 500px;
+    height: 650px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-family: "Playwrite DK Loopet", cursive;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: 29px;
+    color: white;
+    font-family: "Tajawal", sans-serif;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.664);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 25px;
+    border: hidden;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s;
+    outline: none;
+    font-family: "Tajawal", sans-serif;
+    font-size: 20px;
+}
+
+input:hover {
+    width: 320px;
+    box-shadow: 0px 0px 10px white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    font-family: "Tajawal", sans-serif;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 35px;
+    border: hidden;
+    border-radius: 30px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    width: 250px;
+    height: 50px;
+}
